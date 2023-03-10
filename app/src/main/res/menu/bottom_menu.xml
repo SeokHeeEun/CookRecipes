@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/shop"
+        android:enabled="true"
+        android:icon="@drawable/ic_shop"
+        android:title="상점"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        android:title="홈"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/myice"
+        android:enabled="true"
+        android:icon="@drawable/ic_myice"
+        android:title="나만의 냉장고"
+        app:showAsAction="always"/>
+</menu>
